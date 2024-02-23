@@ -3,7 +3,7 @@
 """
     puzzleparse(filename::String) -> Dict{Int64, MyPuzzleRecordModel}
 
-TODO: Add documentation
+    parses through a file and builds it into a disctionary containing an integar and the information the file.
 """
 function puzzleparse(filename::String)::Dict{Int64, MyPuzzleRecordModel}
     
@@ -24,7 +24,7 @@ function puzzleparse(filename::String)::Dict{Int64, MyPuzzleRecordModel}
         end
     end
 
-    # return the header and the records -
+    # return the header and the records - uhuiyiuy
     return records;
 end
 # ===== PUBLIC METHODS ABOVE HERE ==================================================================================== #
